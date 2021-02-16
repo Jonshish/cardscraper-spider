@@ -1,0 +1,13 @@
+setup.py
+ebay_api/__init__.py
+ebay_api/items.py
+ebay_api/middlewares.py
+ebay_api/pipelines.py
+ebay_api/settings.py
+ebay_api/spiders/__init__.py
+ebay_api/spiders/ebay_spider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+.vscode
+__pycache__/
+local_settings.py
+ebay_api_venv

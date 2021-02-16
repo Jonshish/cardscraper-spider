@@ -1,0 +1,4 @@
+project: 498887
+stack: scrapy:2.4.1-py3
+requirements:
+  file: requirements.txt
