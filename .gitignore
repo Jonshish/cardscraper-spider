@@ -2,5 +2,4 @@
 __pycache__/
 local_settings.py
 ebay_api_venv
-card_data.csv
-card_data.json
+ebay_sportscard_scraper.code-workspace
