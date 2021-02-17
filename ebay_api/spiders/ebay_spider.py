@@ -27,7 +27,8 @@ class CardSpider(scrapy.Spider):
                 ).strftime("%Y-%m-%d"),
                 "Sold_Price": products.xpath('.//*[@class="s-item__price"]//text()')
                 .get()
-                .replace("$", ""),
+                .replace("$", "")
+                .replace(",", ""),
                 "Bids": products.css("span.s-item__bids.s-item__bidCount::text")
                 .get()
                 .replace(" bids", "")
